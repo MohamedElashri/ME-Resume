@@ -1,0 +1,53 @@
+
+\documentclass[letterpaper,11pt]{article}
+
+% Choose bibliography style for formatting list of publications
+\usepackage[style=ieee,url=false,doi=false,maxbibnames=99,sorting=ydnt,dashed=false]{biblatex}
+\usepackage{mathabx}
+\bibliography{papers}
+
+% Choose theme, e.g. black, RedViolet, ForestGreen, MidnightBlue
+\def\theme{black}
+
+% More predefined colors can be found in 
+% https://en.wikibooks.org/wiki/LaTeX/Colors
+
+\usepackage{mecv}
+
+\boldname{Mohamed}{Elashri}{R.}
+
+\begin{document}
+
+% Heading
+\headinginline{Mohamed Elashri}{
+    Website: \website{melashri.net} \\ 
+    Email: \email{elashrmr@mail.uc.edu} \\
+    % LinkedIn: \linkedin{doruk-cetin} \\
+    %GitHub: \github{MohamedElashri}
+}
+
+% \headingphoto{Mohamed Elashri}{
+  %  Website: \website{melashri.net} \\ 
+   % Email: \email{elashrmr@mail.uc.edu} \\
+    % LinkedIn: \linkedin{doruk-cetin} \\
+    %GitHub: \github{MohamedElashri}
+% {photo.png}
+
+% Page One
+\import{sections/}{education.tex}
+\import{sections/}{experience.tex}
+\import{sections/}{publications.tex}
+
+%\pagebreak
+
+% Page Two
+\import{sections/}{teaching.tex}
+\sidebyside
+    {\import{sections/}{skills.tex}}
+    {\import{sections/}{languages.tex}}
+\import{sections/}{projects.tex}
+%\import{sections/}{awards.tex}
+\import{sections/}{talks}
+\import{sections/}{volunteering.tex}
+
+\end{document}
