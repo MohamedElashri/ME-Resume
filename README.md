@@ -5,7 +5,6 @@ This repository is for keep record of my LaTeX resume files and keeping up to da
 
 You can perview the live version of my resume [here](https://github.com/MohamedElashri/ME-Resume/blob/Main/Resume.pdf "Mohamed's Resume")
 
-)
 
 ## License
 
