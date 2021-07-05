@@ -8,4 +8,4 @@ You can perview the live version of my resume [here](https://melashri.net/CV.pdf
 
 ## License
 
-Available under [the MIT license](https://opensource.org/licenses/MIT).
+Available under [the MIT license](https://github.com/MohamedElashri/ME-Resume/blob/Main/LICENSE.md).
