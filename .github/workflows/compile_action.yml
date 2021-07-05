@@ -15,10 +15,5 @@ jobs:
         with:
          name: CV
          path: Resume.pdf
-      - name: Download Resume
-        uses: actions/download-artifact@v2
-        with:
-          name: CV.zip
-      - name: Display structure of downloaded files
-        run: ls -R   
+
 
