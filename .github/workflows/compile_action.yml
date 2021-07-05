@@ -13,9 +13,8 @@ jobs:
       - name: Upload pdf file    
         uses: actions/upload-artifact@v2
         with:
-         name: PDF
          path: Resume.pdf
-      - name: Download Resume.pdf   
+      - name: Download Resume
         uses: actions/download-artifact@v2
         with:
           name: Resume.pdf
