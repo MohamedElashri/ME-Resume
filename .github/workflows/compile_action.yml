@@ -15,6 +15,9 @@ jobs:
         with:
          name: CV
          path: Resume.pdf
+      - name: Workaround for container permissions
+        run: |
+          sudo chown -R $USER:$(id -gn $USER) /github/home
       - name: Download a single artifact
         uses: actions/download-artifact@v2
         with:
