@@ -13,5 +13,5 @@ deploy:
   skip_cleanup: true
   on:
     repo: MohamedElashri/ME-Resume
-    tags: true
+    tags: false
     all_branches: true
