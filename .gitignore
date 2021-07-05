@@ -267,5 +267,3 @@ TSWLatexianTemp*
 #git
 .DS_Store
 
-#pdf 
-let travis do it
