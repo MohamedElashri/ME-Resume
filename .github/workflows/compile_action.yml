@@ -17,7 +17,7 @@ jobs:
          path: Resume.pdf
       - name: Workaround for container permissions
         run: |
-          sudo chown -R $USER:$(id -gn $USER) /github/home
+          sudo chown -R $USER:$(id -gn $USER) /home
       - name: Download a single artifact
         uses: actions/download-artifact@v2
         with:
