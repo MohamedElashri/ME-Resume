@@ -263,3 +263,6 @@ TSWLatexianTemp*
 
 # standalone packages
 *.sta
+
+#git
+.DS_Store
