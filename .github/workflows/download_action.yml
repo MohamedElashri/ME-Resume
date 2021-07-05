@@ -1,1 +1,8 @@
-
+steps:
+- uses: actions/checkout@v2
+      - name: Download Resume
+        uses: actions/download-artifact@v2
+        with:
+          name: CV.zip
+      - name: Display structure of downloaded files
+        run: ls -R   
