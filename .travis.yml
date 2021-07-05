@@ -4,3 +4,13 @@ services: docker
 
 script:
   - docker run --mount src=$TRAVIS_BUILD_DIR,target=/usr/src/tex,type=bind dxjoke/tectonic-docker /bin/sh -c "tectonic Resume.tex"
+deploy:
+  provider: releases
+  api_key:
+    secure: ZsbM6x/OAEDsSMr8jUo/Jtn2sNuR8mnDKpwUgM9H7QUfT4TLsJ6N3XmUoH1admH8Fy0kyzrMp2GtwM4ePUf50Aa4E2FdPoAm9baDdgCNQTIiiQsdm6DOFeiH7LI4b3lrlSwYYf2KjO1sdq3XvjYYIYYcWzTSwIugbrJB2ryF4y0zq7N7qq4IXruHHO5SdRfmWLeTn4J+Q2hAZOxhL95IetxICDjdLMucmkmxyW96EgxNSgsG+ge3Ie8B28BeaIG9OkFK8Dz7ddxzdsO54EPsYx98/7nMwz1PB23UI/4Mj4eXNGxn58UWD3d0Ob0sfxPyymyfLQTqubNUuK3dGqa0QhOQ5PfIaIeDkUCdWrxCUuCKN7ot6rN9Kefzar+jOB6gh7VD/35Yw6raAuHjr+4VcXW9CGc8cuqeB/kXwvTShK2SdJclzEA4niMN/vggftSZ3C7lC+bhqwtygDuGswSfXvuxgXmttrY3dKn0xNAB4hbvCq/51cSp4Wb2EWe7Ts2CduxssU0Dl4VuyRZ/GnsYuGFtty/Tpz/gkGQff7QDklhMZDnjwriW+w39hcK/OrT3Hi5ZVGb+2CVK2UAslahJGfzK4Po3MKUeGO1KA0JCsuDuGy6+MGCSPgzk6Z0TVEsqYX77UZsp7BAkI5Ss054htfqJXD3PEKEQhslfXCKVb/s=
+  file: 
+  - Resume.pdf
+  skip_cleanup: true
+  on:
+    tags: true
+    branch: master
