@@ -12,5 +12,6 @@ deploy:
   - Resume.pdf
   skip_cleanup: true
   on:
+    repo: MohamedElashri/ME-Resume
     tags: true
-    branch: master
+    all_branches: true
