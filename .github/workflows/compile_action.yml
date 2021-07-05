@@ -10,4 +10,8 @@ jobs:
         uses: xu-cheng/latex-action@v2
         with:
           root_file: Resume.tex
+      - uses: actions/upload-artifact@v2
+        with:
+         name: PDF
+         path: Resume.pdf
 
