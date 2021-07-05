@@ -3,7 +3,7 @@
 
 This repository is for keep record of my LaTeX resume files and keeping up to dated version. 
 
-You can perview the live version of resume [here](https://melashri.net/CV.pdf "Mohamed's Resume")
+You can perview the live version of the resume [here](https://melashri.net/CV.pdf "Mohamed's Resume")
 
 
 ## License
