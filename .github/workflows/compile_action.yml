@@ -13,11 +13,12 @@ jobs:
       - name: Upload pdf file    
         uses: actions/upload-artifact@v2
         with:
+         name: CV
          path: Resume.pdf
       - name: Download Resume
         uses: actions/download-artifact@v2
         with:
-          name: Resume.pdf
+          name: CV.zip
       - name: Display structure of downloaded files
         run: ls -R   
 
