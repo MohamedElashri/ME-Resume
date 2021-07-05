@@ -15,5 +15,9 @@ jobs:
         with:
          name: CV
          path: Resume.pdf
+      - name: Download a single artifact
+        uses: actions/download-artifact@v2
+        with:
+            name: CV
 
 
