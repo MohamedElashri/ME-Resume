@@ -267,3 +267,5 @@ TSWLatexianTemp*
 #git
 .DS_Store
 
+# Dont want compiled pdf 
+*.pdf
