@@ -15,4 +15,10 @@ jobs:
         with:
          name: PDF
          path: Resume.pdf
+      - name: Download Resume.pdf   
+        uses: actions/download-artifact@v2
+        with:
+          name: Resume.pdf
+      - name: Display structure of downloaded files
+        run: ls -R   
 
