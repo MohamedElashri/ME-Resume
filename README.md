@@ -39,21 +39,21 @@ make nuke
 ### Packages used 
 
 You will need to install these packages 
-- mathabx: Add maths symbols and equations support
-- biblatex-ieee: For IEEE paper style and bibliography
-- biblatex: For bibliography management 
-- xcolor: For more coloring options
-- fullpage: For specific page margins
-- hyperref: Add support for hyperlinks
-- titlesec: Title formatting options
-- subfiles: Allow file importing support
-- multicol: Add support for multi-coulmns
-- enumitem: Add list customization
-- lastpage: Add page numbering
-- fancyhdr: To add footers
-- babel: Special character typesetting
-- graphicx: Allow import graphs 
-- adjustbox: Aligning margins
+- **mathabx**: Add maths symbols and equations support
+- **biblatex-ieee**: For IEEE paper style and bibliography
+- **biblatex**: For bibliography management 
+- **xcolor**: For more coloring options
+- **fullpage**: For specific page margins
+- **hyperref**: Add support for hyperlinks
+- **titlesec**: Title formatting options
+- **subfiles**: Allow file importing support
+- **multicol**: Add support for multi-coulmns
+- **enumitem**: Add list customization
+- **lastpage**: Add page numbering
+- **fancyhdr**: To add footers
+- **babel**: Special character typesetting
+- **graphicx**: Allow import graphs 
+- **adjustbox**: Aligning margins
 
 You might not need all these packages but these are required if you want to use full features of `mecv` style template. 
 
