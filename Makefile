@@ -12,6 +12,8 @@ clean:
 		@find . -name "*.synctex.gz" -exec rm {} \;
 		@find . -name "*.out" -exec rm {} \;
 		@find . -name "*.xdv" -exec rm {} \;
+		@find . -name "*.bcf" -exec rm {} \;
+		@find . -name "*.xml" -exec rm {} \;
 
 nuke: clean
 		@find . -name "*.pdf" -exec rm {} \;
