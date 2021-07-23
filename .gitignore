@@ -269,3 +269,6 @@ TSWLatexianTemp*
 
 # Dont want compiled pdf 
 *.pdf
+
+# vscode
+.vscode
