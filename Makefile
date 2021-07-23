@@ -14,6 +14,8 @@ clean:
 		@find . -name "*.xdv" -exec rm {} \;
 		@find . -name "*.bcf" -exec rm {} \;
 		@find . -name "*.xml" -exec rm {} \;
+		@find . -name "*.bbl" -exec rm {} \;
+		@find . -name "*.blg" -exec rm {} \;
 
 nuke: clean
 		@find . -name "*.pdf" -exec rm {} \;
