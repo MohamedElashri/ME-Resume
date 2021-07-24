@@ -4,7 +4,7 @@
 # Mohamed Elashri CV 
 
 
-This repository is for keep record of my LaTeX resume files and keeping up to dated version. You can perview the live version of the resume [here](https://melashri.net/CV.pdf "Mohamed's Resume"). I'm using cutsom `mycv.sty` style which is a collection from various sources with my personal modification and should be easy to modify. 
+This repository is for keep record of my LaTeX resume files and keeping up to dated version. You can perview the live version of the resume [here](https://melashri.net/CV.pdf "Mohamed's Resume"). I'm using cutsom `mecv.sty` style which is a collection from various sources with my personal modification and should be easy to modify. 
 
 ## Requirments 
 You will need a `LaTeX` distibution, I would like to recommend `TeX Live` on Mac or Linux but it should work with others and on windows. You can use overleaf or other online latex editors like cocalc but the `Makefile` in this repository using `pdflatex` so it also needs Makefile package to be installed but you can use and editor or complie the source from Command line. 
