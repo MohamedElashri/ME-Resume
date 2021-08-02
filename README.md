@@ -1,5 +1,6 @@
 [![Build Status](https://app.travis-ci.com/MohamedElashri/ME-Resume.svg?branch=Main)](https://app.travis-ci.com/MohamedElashri/ME-Resume)
 [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
+[![Build LaTeX document](https://github.com/MohamedElashri/ME-Resume/actions/workflows/compile_action.yml/badge.svg)](https://github.com/MohamedElashri/ME-Resume/actions/workflows/compile_action.yml)
 
 # Mohamed Elashri CV 
 
