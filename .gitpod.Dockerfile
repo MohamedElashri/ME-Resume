@@ -1,4 +1,11 @@
 FROM gitpod/workspace-full
 
 # Install LaTeX
-RUN sudo apt-get -q update &&  sudo apt-get install texlive-bibtex-extra biber &&   sudo apt-get install -yq texlive &&     sudo rm -rf /var/lib/apt/lists/*
+USER root
+RUN true \
+	&& apt-get -q update \
+	&& apt-get install -yq \
+		texlive-full \
+	&& apt-get autoremove -yq \
+	&& rm -rf /var/lib/apt/lists/*
+
