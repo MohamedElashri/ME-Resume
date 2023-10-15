@@ -1,4 +1,3 @@
-[![Build Status](https://app.travis-ci.com/MohamedElashri/ME-Resume.svg?branch=Main)](https://app.travis-ci.com/MohamedElashri/ME-Resume)
 [![Build LaTeX document](https://github.com/MohamedElashri/ME-Resume/actions/workflows/compile_action.yml/badge.svg)](https://github.com/MohamedElashri/ME-Resume/actions/workflows/compile_action.yml)
 
 # Mohamed Elashri CV 
